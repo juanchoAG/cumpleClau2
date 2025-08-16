@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cumpleClau2/static/css/main.9d9bafbb.css",
+    "main.js": "/cumpleClau2/static/js/main.5ae4d57e.js",
+    "index.html": "/cumpleClau2/index.html",
+    "main.9d9bafbb.css.map": "/cumpleClau2/static/css/main.9d9bafbb.css.map",
+    "main.5ae4d57e.js.map": "/cumpleClau2/static/js/main.5ae4d57e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d9bafbb.css",
+    "static/js/main.5ae4d57e.js"
+  ]
+}
