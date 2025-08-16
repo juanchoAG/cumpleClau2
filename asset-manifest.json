@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/cumpleClau2/static/css/main.07f93517.css",
+    "main.css": "/cumpleClau2/static/css/main.809f9329.css",
     "main.js": "/cumpleClau2/static/js/main.7fb308df.js",
     "static/media/imagenSpa.png": "/cumpleClau2/static/media/imagenSpa.1bde44357b6859a7ed43.png",
     "static/media/cumpleClau.jpeg": "/cumpleClau2/static/media/cumpleClau.46cd7f0ba87609d69395.jpeg",
     "index.html": "/cumpleClau2/index.html",
-    "main.07f93517.css.map": "/cumpleClau2/static/css/main.07f93517.css.map",
+    "main.809f9329.css.map": "/cumpleClau2/static/css/main.809f9329.css.map",
     "main.7fb308df.js.map": "/cumpleClau2/static/js/main.7fb308df.js.map"
   },
   "entrypoints": [
-    "static/css/main.07f93517.css",
+    "static/css/main.809f9329.css",
     "static/js/main.7fb308df.js"
   ]
 }
