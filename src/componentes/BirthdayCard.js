@@ -1,23 +1,24 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../styles/BirthdayCard.css'; // Tu CSS que has compartido
-import cumpleImg from '../imagenes/cumpleClau.jpeg'; // Ajusta la ruta de tu imagen
 
 const BirthdayCard = () => {
   const [showMessage, setShowMessage] = useState(false);
+  const navigate = useNavigate(); 
 
   const handleSorpresa = () => {
     setShowMessage(true);
     // Redirigir después de 2 segundos
     setTimeout(() => {
-      window.location.href = 'https://nicciamalaga.com/';
+      navigate('/regalo');
     }, 2000);
   };
 
   return (
     <div className="card">
-      <h1>🎉Feliz Cumpleaños Claudiaaa🎉</h1>
-      <h2>😍Eres increibleee😍</h2>
-      <img className="imagen-clau" src={cumpleImg} alt="Cumpleaños Claudia" />
+      <h1>🎉Feliz Cumpleaños Claudia🎂</h1>
+      <h2>😍Eres increible😍</h2>
+      <img className="imagen-clau" src='./imagenes/cumpleClau.jpeg' alt="Cumpleaños Claudia" />
 
       <button className="button-sorpresa" onClick={handleSorpresa}>
         Sorpresa
@@ -25,8 +26,8 @@ const BirthdayCard = () => {
 
       {showMessage && (
       <div className="mensaje-sorpresa">
-        <p>😍 La primera sorpresita 😍</p>
-        <p>...RELAX...</p>
+        <p>😍 La primera sopresa 😍</p>
+        <p>...Relax...</p>
       </div>
       )}
     </div>
